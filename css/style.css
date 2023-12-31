@@ -1,55 +1,96 @@
 @import url(/css/global.css);
 @import url(/css/header.css);
 
-.hero{
+.hero {
   max-width: 1280px;
   margin: 0 auto;
 }
 
-.hero-wrapper{
+.hero-wrapper {
+  padding: 16px 16px;
   display: grid;
   grid-template-columns: 1.3fr 1fr;
-  align-items:center;
+  align-items: center;
 }
 
-.hero-sub{
+.hero-sub {
   color: #fff;
   font-size: 24px;
 }
 
-.hero-h2 span{
+.hero-h2 span {
   display: block;
 }
 
-.hero-h2, .hero-title2{
+.hero-h2,
+.hero-title2 {
   font-size: 60px;
   color: #fff;
 }
-.hero-h2{
+
+.hero-h2 {
   font-weight: 300;
   padding-bottom: 8px;
 }
-.hero-title2{
+
+.hero-title2 {
   font-weight: 700;
 }
 
-.hero-p{
+.hero-p {
   font-size: 16px;
   color: #fff;
   font-weight: 300;
 }
 
-.section-creative{
- background: #fff;
- height: 500px;
- position: relative;
+.section-creative {
+  margin-top: 42px;
+  background: #fff;
+  height: 500px;
+  position: relative;
 }
-.svg{
-  left: 50%;
-  transform: translateX(-50%);
+
+.creative {
+  position: relative;
 }
-.creative{
-  left: 50%;
-  transform: translateX(-50%);
+
+.shape {
   position: absolute;
+  width: 100%;
+}
+
+.creative .element-shape-bottom {
+  bottom: 0px;
+  transform: rotate(180deg);
+}
+
+.element-shape-fill {
+  fill: #fff;
+}
+
+.element-shape-bottom svg {
+  height: 90px;
+  width: calc(100% + 1.3px);
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media(max-width:600px) {
+  .hero-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .img-hero {
+    width: 24rem;
+  }
+
+  .content div .logo {
+    width: 60px;
+  }
+
+  .element-shape-bottom svg {
+    height: 60px;
+    width: 100%;
+  }
 }

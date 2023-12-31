@@ -1,0 +1,81 @@
+.wrapper {
+  width: 100%;
+  max-width: 100%;
+  margin-top:16px ;
+}
+
+.content {
+  padding: 0 16px;
+  margin: 0 auto;
+  display: flex;
+  max-width: 1280px;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 80px;
+}
+.ul-menu {
+  display: flex;
+}
+
+.ul-menu li {
+  padding-left: 32px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.saiba-btn {
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: 1px solid #fff;
+}
+
+
+.mobile-menu{
+  display: none;
+}
+#button-mobile{
+  display: none;
+}
+
+#menu-icon{
+  width: 20px;
+}
+
+@media(max-width:600px){
+  
+  #button-mobile{
+  display: block;
+  background-color: transparent;
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+  height: 28px;
+  width: 28px;
+  }
+
+  #menu{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    right: 0px;
+    background-color: #0b85ffeb;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+
+  #nav.active #menu{
+    height: 100vh;
+    visibility: visible;
+  }
+
+  #menu li{
+   padding: 1rem 0;
+   margin: 0 1rem;
+   /* border-bottom: 2px solid #212121; */
+  } 
+}

@@ -1,0 +1,55 @@
+@import url(/css/global.css);
+@import url(/css/header.css);
+
+.hero{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.hero-wrapper{
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  align-items:center;
+}
+
+.hero-sub{
+  color: #fff;
+  font-size: 24px;
+}
+
+.hero-h2 span{
+  display: block;
+}
+
+.hero-h2, .hero-title2{
+  font-size: 60px;
+  color: #fff;
+}
+.hero-h2{
+  font-weight: 300;
+  padding-bottom: 8px;
+}
+.hero-title2{
+  font-weight: 700;
+}
+
+.hero-p{
+  font-size: 16px;
+  color: #fff;
+  font-weight: 300;
+}
+
+.section-creative{
+ background: #fff;
+ height: 500px;
+ position: relative;
+}
+.svg{
+  left: 50%;
+  transform: translateX(-50%);
+}
+.creative{
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}

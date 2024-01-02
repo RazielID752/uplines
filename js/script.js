@@ -36,3 +36,16 @@ linksMenu.forEach(link => {
 });
 
 // Final menu mobile
+
+
+//mudar a cor do menu quando o menu abaixar
+window.addEventListener("scroll", () => {
+  let menuHeader = document.querySelector('.wrapper')
+
+  //adicionando dinamicamente essa classe
+  menuHeader.classList.toggle('rolagem', window.scrollY > 0)
+});
+
+
+
+

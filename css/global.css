@@ -1,4 +1,10 @@
 /*/ Reset */
+
+:root{
+  --color-blue:#0A84FF;
+  --color-white:#fff;
+  --max-width-1280:1280px;
+}
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +18,6 @@ body{
   background-color: #0B84FF;
   color: #000;
   overflow-x: hidden;
-  height: 2600px;
   font-family: 'Inter', sans-serif, Arial, Helvetica; 
 }
 

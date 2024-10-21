@@ -14,7 +14,9 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;600;700&display=swap"
       rel="stylesheet"
     />
+
     <title>Uplines</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png" />
   </head>
 
   <body>
@@ -57,7 +59,7 @@
           </div>
           <div class="wrap-mobile">
             <button id="button-mobile">
-              <img id="menu-icon" src="Img/menu-togle.svg" alt="Menu Fechado" />
+              <img id="menu-icon" class="menuMobile" src="Img/menu-togle.svg" alt="Menu Fechado" />
             </button>
             <nav id="nav">
               <ul id="menu" class="ul-menu">
@@ -130,78 +132,520 @@
         </div>
         <div class="TextWrapper">
           <div class="cardText">
-            <div class="iconContainer">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="iconCard"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672Zm-7.518-.267A8.25 8.25 0 1 1 20.25 10.5M8.288 14.212A5.25 5.25 0 1 1 17.25 10.5"
-                />
-              </svg>
-            </div>
-            <div class="TextContent">
-              <h2>Experiencia do usuario</h2>
-              <p>
-                Identifique as necessidades do usuário e propor soluções
-                criativas com base em pesquisas e teste de usabilidade.
-              </p>
-            </div>
-          </div>
-          <div class="cardText">
-            <div class="iconContainer">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="iconCard"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
-                />
-              </svg>
-            </div>
-            <div class="TextContent">
-              <h2>Desenvolvimento de sites</h2>
-              <p>
-                Desenvolvimento de serviços em multiplataformas como websites,
-                aplicações e mobile.
-              </p>
+            <div class="cardContent">
+              <div class="iconContainer">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="iconCard"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672Zm-7.518-.267A8.25 8.25 0 1 1 20.25 10.5M8.288 14.212A5.25 5.25 0 1 1 17.25 10.5"
+                  />
+                </svg>
+              </div>
+              <div class="TextContent">
+                <h2>Experiencia do usuario</h2>
+                <p>
+                  Identifique as necessidades do usuário e propor soluções
+                  criativas com base em pesquisas e teste de usabilidade.
+                </p>
+              </div>
             </div>
           </div>
           <div class="cardText">
-            <div class="iconContainer">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="iconCard"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25"
-                />
-              </svg>
+            <div class="cardContent">
+              <div class="iconContainer">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="iconCard"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
+                  />
+                </svg>
+              </div>
+              <div class="TextContent">
+                <h2>Desenvolvimento de sites</h2>
+                <p>
+                  Desenvolvimento de serviços em multiplataformas como websites,
+                  aplicações e mobile.
+                </p>
+              </div>
             </div>
-            <div class="TextContent">
-              <h2>Apps interface</h2>
-              <p>
-                Design aplicado a experiência do usuário, protótipos,
-                wireframes, interfaces e fluxos de navegação eficaz.
-              </p>
+          </div>
+          <div class="cardText">
+            <div class="cardContent">
+              <div class="iconContainer">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="iconCard"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25"
+                  />
+                </svg>
+              </div>
+              <div class="TextContent">
+                <h2>Apps interface</h2>
+                <p>
+                  Design aplicado a experiência do usuário, protótipos,
+                  wireframes, interfaces e fluxos eficaz.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="functionUp">
+        <div>
+          <div class="textContent">
+            <div class="textH2After">
+              <h2>Uplines</h2>
+            </div>
+            <div class="textBeforeH3">
+              <h3>Funcionalidade</h3>
+            </div>
+          </div>
+          <div class="fuctionWrraper">
+            <div class="card sweeperCard o-hidden">
+              <div class="containers">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 23 23"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                    width="35"
+                    height="35"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M10.5 19.5h3m-6.75 2.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-15a2.25 2.25 0 0 0-2.25-2.25H6.75A2.25 2.25 0 0 0 4.5 4.5v15a2.25 2.25 0 0 0 2.25 2.25Z"
+                    />
+                  </svg>
+                </div>
+                <div class="title">Sites responsivos</div>
+                <div class="subtitle">
+                  Você sabia que o Google classifica negativamente websies que
+                  não funcionam bem em smartphones e tablet? Por isso,
+                  construimos sites com a tecnologia mais recente do mercado,
+                  criando uma versão para cada dispositivo: PC, Tablet e
+                  Smartphone.
+                </div>
+                <div class="linkMore">
+                  Saiba mais
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 18 19"
+                    height="19"
+                    width="18"
+                  >
+                    <path
+                      stroke="#072713"
+                      fill="#072713"
+                      d="M3 9.09985C3 9.23792 2.88807 9.34985 2.75 9.34985C2.61193 9.34985 2.5 9.23792 2.5 9.09985C2.5 8.96178 2.61193 8.84985 2.75 8.84985C2.88807 8.84985 3 8.96178 3 9.09985Z"
+                    ></path>
+                    <path
+                      stroke="#072713"
+                      fill="#072713"
+                      d="M9.25 2.84985C9.25 2.98792 9.13807 3.09985 9 3.09985C8.86193 3.09985 8.75 2.98792 8.75 2.84985C8.75 2.71178 8.86193 2.59985 9 2.59985C9.13807 2.59985 9.25 2.71178 9.25 2.84985Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M2.75 3.59985C3.16421 3.59985 3.5 3.26407 3.5 2.84985C3.5 2.43564 3.16421 2.09985 2.75 2.09985C2.33579 2.09985 2 2.43564 2 2.84985C2 3.26407 2.33579 3.59985 2.75 3.59985Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M2.75 6.72485C3.16421 6.72485 3.5 6.38907 3.5 5.97485C3.5 5.56064 3.16421 5.22485 2.75 5.22485C2.33579 5.22485 2 5.56064 2 5.97485C2 6.38907 2.33579 6.72485 2.75 6.72485Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M2.75 12.9749C3.16421 12.9749 3.5 12.6391 3.5 12.2249C3.5 11.8106 3.16421 11.4749 2.75 11.4749C2.33579 11.4749 2 11.8106 2 12.2249C2 12.6391 2.33579 12.9749 2.75 12.9749Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M2.75 16.0999C3.16421 16.0999 3.5 15.7641 3.5 15.3499C3.5 14.9356 3.16421 14.5999 2.75 14.5999C2.33579 14.5999 2 14.9356 2 15.3499C2 15.7641 2.33579 16.0999 2.75 16.0999Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M15.25 3.59985C15.6642 3.59985 16 3.26407 16 2.84985C16 2.43564 15.6642 2.09985 15.25 2.09985C14.8358 2.09985 14.5 2.43564 14.5 2.84985C14.5 3.26407 14.8358 3.59985 15.25 3.59985Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M15.25 6.72485C15.6642 6.72485 16 6.38907 16 5.97485C16 5.56064 15.6642 5.22485 15.25 5.22485C14.8358 5.22485 14.5 5.56064 14.5 5.97485C14.5 6.38907 14.8358 6.72485 15.25 6.72485Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M12.125 3.59985C12.5392 3.59985 12.875 3.26407 12.875 2.84985C12.875 2.43564 12.5392 2.09985 12.125 2.09985C11.7108 2.09985 11.375 2.43564 11.375 2.84985C11.375 3.26407 11.7108 3.59985 12.125 3.59985Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M5.875 3.59985C6.28921 3.59985 6.625 3.26407 6.625 2.84985C6.625 2.43564 6.28921 2.09985 5.875 2.09985C5.46079 2.09985 5.125 2.43564 5.125 2.84985C5.125 3.26407 5.46079 3.59985 5.875 3.59985Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M5.875 16.0999C6.28921 16.0999 6.625 15.7641 6.625 15.3499C6.625 14.9356 6.28921 14.5999 5.875 14.5999C5.46079 14.5999 5.125 14.9356 5.125 15.3499C5.125 15.7641 5.46079 16.0999 5.875 16.0999Z"
+                    ></path>
+                    <path
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                      stroke-width="1.5"
+                      stroke="#072713"
+                      d="M9.25 15.3499V9.34985H15.25"
+                    ></path>
+                    <path
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                      stroke-width="1.5"
+                      stroke="#072713"
+                      d="M9.25 9.34985L15.25 15.3499"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="card sweeperCard o-hidden">
+              <div class="containers">
+                <div class="icon">
+                  <svg
+                    width="28"
+                    height="29"
+                    viewBox="0 0 28 29"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M23.7222 9.04435V6.71102C23.7222 5.42235 22.6775 4.37769 21.3888 4.37769L6.61106 4.37769C5.32239 4.37769 4.27773 5.42235 4.27773 6.71102V9.04435C4.27773 10.333 5.32239 11.3777 6.61106 11.3777H21.3888C22.6775 11.3777 23.7222 10.333 23.7222 9.04435Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      d="M23.7222 21.4888V19.1555C23.7222 17.8668 22.6775 16.8221 21.3888 16.8221H15.9444C14.6557 16.8221 13.6111 17.8668 13.6111 19.1555V21.4888C13.6111 22.7775 14.6557 23.8221 15.9444 23.8221H21.3888C22.6775 23.8221 23.7222 22.7775 23.7222 21.4888Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="title">Sites responsivos</div>
+                <div class="subtitle">
+                  Você sabia que o Google classifica negativamente websies que
+                  não funcionam bem em smartphones e tablet? Por isso,
+                  construimos sites com a tecnologia mais recente do mercado,
+                  criando uma versão para cada dispositivo: PC, Tablet e
+                  Smartphone.
+                </div>
+                <div class="linkMore">
+                  Saiba mais
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 18 19"
+                    height="19"
+                    width="18"
+                  >
+                    <path
+                      stroke="#072713"
+                      fill="#072713"
+                      d="M3 9.09985C3 9.23792 2.88807 9.34985 2.75 9.34985C2.61193 9.34985 2.5 9.23792 2.5 9.09985C2.5 8.96178 2.61193 8.84985 2.75 8.84985C2.88807 8.84985 3 8.96178 3 9.09985Z"
+                    ></path>
+                    <path
+                      stroke="#072713"
+                      fill="#072713"
+                      d="M9.25 2.84985C9.25 2.98792 9.13807 3.09985 9 3.09985C8.86193 3.09985 8.75 2.98792 8.75 2.84985C8.75 2.71178 8.86193 2.59985 9 2.59985C9.13807 2.59985 9.25 2.71178 9.25 2.84985Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M2.75 3.59985C3.16421 3.59985 3.5 3.26407 3.5 2.84985C3.5 2.43564 3.16421 2.09985 2.75 2.09985C2.33579 2.09985 2 2.43564 2 2.84985C2 3.26407 2.33579 3.59985 2.75 3.59985Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M2.75 6.72485C3.16421 6.72485 3.5 6.38907 3.5 5.97485C3.5 5.56064 3.16421 5.22485 2.75 5.22485C2.33579 5.22485 2 5.56064 2 5.97485C2 6.38907 2.33579 6.72485 2.75 6.72485Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M2.75 12.9749C3.16421 12.9749 3.5 12.6391 3.5 12.2249C3.5 11.8106 3.16421 11.4749 2.75 11.4749C2.33579 11.4749 2 11.8106 2 12.2249C2 12.6391 2.33579 12.9749 2.75 12.9749Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M2.75 16.0999C3.16421 16.0999 3.5 15.7641 3.5 15.3499C3.5 14.9356 3.16421 14.5999 2.75 14.5999C2.33579 14.5999 2 14.9356 2 15.3499C2 15.7641 2.33579 16.0999 2.75 16.0999Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M15.25 3.59985C15.6642 3.59985 16 3.26407 16 2.84985C16 2.43564 15.6642 2.09985 15.25 2.09985C14.8358 2.09985 14.5 2.43564 14.5 2.84985C14.5 3.26407 14.8358 3.59985 15.25 3.59985Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M15.25 6.72485C15.6642 6.72485 16 6.38907 16 5.97485C16 5.56064 15.6642 5.22485 15.25 5.22485C14.8358 5.22485 14.5 5.56064 14.5 5.97485C14.5 6.38907 14.8358 6.72485 15.25 6.72485Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M12.125 3.59985C12.5392 3.59985 12.875 3.26407 12.875 2.84985C12.875 2.43564 12.5392 2.09985 12.125 2.09985C11.7108 2.09985 11.375 2.43564 11.375 2.84985C11.375 3.26407 11.7108 3.59985 12.125 3.59985Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M5.875 3.59985C6.28921 3.59985 6.625 3.26407 6.625 2.84985C6.625 2.43564 6.28921 2.09985 5.875 2.09985C5.46079 2.09985 5.125 2.43564 5.125 2.84985C5.125 3.26407 5.46079 3.59985 5.875 3.59985Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M5.875 16.0999C6.28921 16.0999 6.625 15.7641 6.625 15.3499C6.625 14.9356 6.28921 14.5999 5.875 14.5999C5.46079 14.5999 5.125 14.9356 5.125 15.3499C5.125 15.7641 5.46079 16.0999 5.875 16.0999Z"
+                    ></path>
+                    <path
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                      stroke-width="1.5"
+                      stroke="#072713"
+                      d="M9.25 15.3499V9.34985H15.25"
+                    ></path>
+                    <path
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                      stroke-width="1.5"
+                      stroke="#072713"
+                      d="M9.25 9.34985L15.25 15.3499"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="card sweeperCard o-hidden">
+              <div class="containers">
+                <div class="icon">
+                  <svg
+                    width="28"
+                    height="29"
+                    viewBox="0 0 28 29"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M23.7222 9.04435V6.71102C23.7222 5.42235 22.6775 4.37769 21.3888 4.37769L6.61106 4.37769C5.32239 4.37769 4.27773 5.42235 4.27773 6.71102V9.04435C4.27773 10.333 5.32239 11.3777 6.61106 11.3777H21.3888C22.6775 11.3777 23.7222 10.333 23.7222 9.04435Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      d="M23.7222 21.4888V19.1555C23.7222 17.8668 22.6775 16.8221 21.3888 16.8221H15.9444C14.6557 16.8221 13.6111 17.8668 13.6111 19.1555V21.4888C13.6111 22.7775 14.6557 23.8221 15.9444 23.8221H21.3888C22.6775 23.8221 23.7222 22.7775 23.7222 21.4888Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="title">Sites responsivos</div>
+                <div class="subtitle">
+                  Você sabia que o Google classifica negativamente websies que
+                  não funcionam bem em smartphones e tablet? Por isso,
+                  construimos sites com a tecnologia mais recente do mercado,
+                  criando uma versão para cada dispositivo: PC, Tablet e
+                  Smartphone.
+                </div>
+                <div class="linkMore">
+                  Saiba mais
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 18 19"
+                    height="19"
+                    width="18"
+                  >
+                    <path
+                      stroke="#072713"
+                      fill="#072713"
+                      d="M3 9.09985C3 9.23792 2.88807 9.34985 2.75 9.34985C2.61193 9.34985 2.5 9.23792 2.5 9.09985C2.5 8.96178 2.61193 8.84985 2.75 8.84985C2.88807 8.84985 3 8.96178 3 9.09985Z"
+                    ></path>
+                    <path
+                      stroke="#072713"
+                      fill="#072713"
+                      d="M9.25 2.84985C9.25 2.98792 9.13807 3.09985 9 3.09985C8.86193 3.09985 8.75 2.98792 8.75 2.84985C8.75 2.71178 8.86193 2.59985 9 2.59985C9.13807 2.59985 9.25 2.71178 9.25 2.84985Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M2.75 3.59985C3.16421 3.59985 3.5 3.26407 3.5 2.84985C3.5 2.43564 3.16421 2.09985 2.75 2.09985C2.33579 2.09985 2 2.43564 2 2.84985C2 3.26407 2.33579 3.59985 2.75 3.59985Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M2.75 6.72485C3.16421 6.72485 3.5 6.38907 3.5 5.97485C3.5 5.56064 3.16421 5.22485 2.75 5.22485C2.33579 5.22485 2 5.56064 2 5.97485C2 6.38907 2.33579 6.72485 2.75 6.72485Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M2.75 12.9749C3.16421 12.9749 3.5 12.6391 3.5 12.2249C3.5 11.8106 3.16421 11.4749 2.75 11.4749C2.33579 11.4749 2 11.8106 2 12.2249C2 12.6391 2.33579 12.9749 2.75 12.9749Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M2.75 16.0999C3.16421 16.0999 3.5 15.7641 3.5 15.3499C3.5 14.9356 3.16421 14.5999 2.75 14.5999C2.33579 14.5999 2 14.9356 2 15.3499C2 15.7641 2.33579 16.0999 2.75 16.0999Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M15.25 3.59985C15.6642 3.59985 16 3.26407 16 2.84985C16 2.43564 15.6642 2.09985 15.25 2.09985C14.8358 2.09985 14.5 2.43564 14.5 2.84985C14.5 3.26407 14.8358 3.59985 15.25 3.59985Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M15.25 6.72485C15.6642 6.72485 16 6.38907 16 5.97485C16 5.56064 15.6642 5.22485 15.25 5.22485C14.8358 5.22485 14.5 5.56064 14.5 5.97485C14.5 6.38907 14.8358 6.72485 15.25 6.72485Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M12.125 3.59985C12.5392 3.59985 12.875 3.26407 12.875 2.84985C12.875 2.43564 12.5392 2.09985 12.125 2.09985C11.7108 2.09985 11.375 2.43564 11.375 2.84985C11.375 3.26407 11.7108 3.59985 12.125 3.59985Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M5.875 3.59985C6.28921 3.59985 6.625 3.26407 6.625 2.84985C6.625 2.43564 6.28921 2.09985 5.875 2.09985C5.46079 2.09985 5.125 2.43564 5.125 2.84985C5.125 3.26407 5.46079 3.59985 5.875 3.59985Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M5.875 16.0999C6.28921 16.0999 6.625 15.7641 6.625 15.3499C6.625 14.9356 6.28921 14.5999 5.875 14.5999C5.46079 14.5999 5.125 14.9356 5.125 15.3499C5.125 15.7641 5.46079 16.0999 5.875 16.0999Z"
+                    ></path>
+                    <path
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                      stroke-width="1.5"
+                      stroke="#072713"
+                      d="M9.25 15.3499V9.34985H15.25"
+                    ></path>
+                    <path
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                      stroke-width="1.5"
+                      stroke="#072713"
+                      d="M9.25 9.34985L15.25 15.3499"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="card sweeperCard o-hidden">
+              <div class="containers">
+                <div class="icon">
+                  <svg
+                    width="28"
+                    height="29"
+                    viewBox="0 0 28 29"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M23.7222 9.04435V6.71102C23.7222 5.42235 22.6775 4.37769 21.3888 4.37769L6.61106 4.37769C5.32239 4.37769 4.27773 5.42235 4.27773 6.71102V9.04435C4.27773 10.333 5.32239 11.3777 6.61106 11.3777H21.3888C22.6775 11.3777 23.7222 10.333 23.7222 9.04435Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      d="M23.7222 21.4888V19.1555C23.7222 17.8668 22.6775 16.8221 21.3888 16.8221H15.9444C14.6557 16.8221 13.6111 17.8668 13.6111 19.1555V21.4888C13.6111 22.7775 14.6557 23.8221 15.9444 23.8221H21.3888C22.6775 23.8221 23.7222 22.7775 23.7222 21.4888Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="title">Sites responsivos</div>
+                <div class="subtitle">
+                  Você sabia que o Google classifica negativamente websies que
+                  não funcionam bem em smartphones e tablet? Por isso,
+                  construimos sites com a tecnologia mais recente do mercado,
+                  criando uma versão para cada dispositivo: PC, Tablet e
+                  Smartphone.
+                </div>
+                <div class="linkMore">
+                  Saiba mais
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 18 19"
+                    height="19"
+                    width="18"
+                  >
+                    <path
+                      stroke="#072713"
+                      fill="#072713"
+                      d="M3 9.09985C3 9.23792 2.88807 9.34985 2.75 9.34985C2.61193 9.34985 2.5 9.23792 2.5 9.09985C2.5 8.96178 2.61193 8.84985 2.75 8.84985C2.88807 8.84985 3 8.96178 3 9.09985Z"
+                    ></path>
+                    <path
+                      stroke="#072713"
+                      fill="#072713"
+                      d="M9.25 2.84985C9.25 2.98792 9.13807 3.09985 9 3.09985C8.86193 3.09985 8.75 2.98792 8.75 2.84985C8.75 2.71178 8.86193 2.59985 9 2.59985C9.13807 2.59985 9.25 2.71178 9.25 2.84985Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M2.75 3.59985C3.16421 3.59985 3.5 3.26407 3.5 2.84985C3.5 2.43564 3.16421 2.09985 2.75 2.09985C2.33579 2.09985 2 2.43564 2 2.84985C2 3.26407 2.33579 3.59985 2.75 3.59985Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M2.75 6.72485C3.16421 6.72485 3.5 6.38907 3.5 5.97485C3.5 5.56064 3.16421 5.22485 2.75 5.22485C2.33579 5.22485 2 5.56064 2 5.97485C2 6.38907 2.33579 6.72485 2.75 6.72485Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M2.75 12.9749C3.16421 12.9749 3.5 12.6391 3.5 12.2249C3.5 11.8106 3.16421 11.4749 2.75 11.4749C2.33579 11.4749 2 11.8106 2 12.2249C2 12.6391 2.33579 12.9749 2.75 12.9749Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M2.75 16.0999C3.16421 16.0999 3.5 15.7641 3.5 15.3499C3.5 14.9356 3.16421 14.5999 2.75 14.5999C2.33579 14.5999 2 14.9356 2 15.3499C2 15.7641 2.33579 16.0999 2.75 16.0999Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M15.25 3.59985C15.6642 3.59985 16 3.26407 16 2.84985C16 2.43564 15.6642 2.09985 15.25 2.09985C14.8358 2.09985 14.5 2.43564 14.5 2.84985C14.5 3.26407 14.8358 3.59985 15.25 3.59985Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M15.25 6.72485C15.6642 6.72485 16 6.38907 16 5.97485C16 5.56064 15.6642 5.22485 15.25 5.22485C14.8358 5.22485 14.5 5.56064 14.5 5.97485C14.5 6.38907 14.8358 6.72485 15.25 6.72485Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M12.125 3.59985C12.5392 3.59985 12.875 3.26407 12.875 2.84985C12.875 2.43564 12.5392 2.09985 12.125 2.09985C11.7108 2.09985 11.375 2.43564 11.375 2.84985C11.375 3.26407 11.7108 3.59985 12.125 3.59985Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M5.875 3.59985C6.28921 3.59985 6.625 3.26407 6.625 2.84985C6.625 2.43564 6.28921 2.09985 5.875 2.09985C5.46079 2.09985 5.125 2.43564 5.125 2.84985C5.125 3.26407 5.46079 3.59985 5.875 3.59985Z"
+                    ></path>
+                    <path
+                      fill="#072713"
+                      d="M5.875 16.0999C6.28921 16.0999 6.625 15.7641 6.625 15.3499C6.625 14.9356 6.28921 14.5999 5.875 14.5999C5.46079 14.5999 5.125 14.9356 5.125 15.3499C5.125 15.7641 5.46079 16.0999 5.875 16.0999Z"
+                    ></path>
+                    <path
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                      stroke-width="1.5"
+                      stroke="#072713"
+                      d="M9.25 15.3499V9.34985H15.25"
+                    ></path>
+                    <path
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                      stroke-width="1.5"
+                      stroke="#072713"
+                      d="M9.25 9.34985L15.25 15.3499"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -209,118 +653,121 @@
     </main>
     <footer class="footer">
       <div class="footerWrraper">
-        <div class="logoContent">
-          <div>
-            <img src="img/logo-blue.svg" alt="" />
+        <div>
+          <div class="logoContent">
+            <div>
+              <img class="logoFooter" src="img/logo-blue.svg" alt="" />
+            </div>
+            <div class="btn-conteiner">
+              <a class="btn-content" href="">
+                <span class="btn-title">Solicite um especialista</span>
+                <span class="icon-arrow">
+                  <svg
+                    width="60px"
+                    height="34px"
+                    viewBox="0 0 66 43"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <g
+                      id="arrow"
+                      stroke="none"
+                      stroke-width="1"
+                      fill="none"
+                      fill-rule="evenodd"
+                    >
+                      <path
+                        id="arrow-icon-one"
+                        d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
+                        fill="currentColor"
+                      ></path>
+                      <path
+                        id="arrow-icon-two"
+                        d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
+                        fill="currentColor"
+                      ></path>
+                      <path
+                        id="arrow-icon-three"
+                        d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
+                        fill="currentColor"
+                      ></path>
+                    </g>
+                  </svg>
+                </span>
+              </a>
+            </div>
           </div>
-          <div class="btn-conteiner">
-            <a class="btn-content" href="">
-              <span class="btn-title">Solicite um especialista</span>
-              <span class="icon-arrow">
-                <svg
-                  width="60px"
-                  height="34px"
-                  viewBox="0 0 66 43"
-                  version="1.1"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                >
-                  <g
-                    id="arrow"
-                    stroke="none"
-                    stroke-width="1"
-                    fill="none"
-                    fill-rule="evenodd"
+        </div>
+        <div class="listContainer">
+          <div>
+            <ul class="ulFooter">
+              <li class="liTitle"><h2>Institucional</h2></li>
+              <li class="liFooter"><a href="">Início</a></li>
+              <li class="liFooter"><a href="">Manutenção</a></li>
+              <li class="liFooter"><a href="">Prevenção</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul class="ulFooter">
+              <li class="liTitle"><h2>Dúvidas</h2></li>
+              <li class="liFooter"><a href="">Solucões</a></li>
+              <li class="liFooter"><a href="">Feedback</a></li>
+              <li class="liFooter"><a href="">Perguntas</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="titleLiFooter">Redes socias</h2>
+            <ul class="ulRedes">
+              <li class="liFooter">
+                <a href="" class="IconFooterRedes">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="iconRedes"
                   >
                     <path
-                      id="arrow-icon-one"
-                      d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
-                      fill="currentColor"
+                      d="M16.403,9H14V7c0-1.032,0.084-1.682,1.563-1.682h0.868c0.552,0,1-0.448,1-1V3.064c0-0.523-0.401-0.97-0.923-1.005C15.904,2.018,15.299,1.999,14.693,2C11.98,2,10,3.657,10,6.699V9H8c-0.552,0-1,0.448-1,1v2c0,0.552,0.448,1,1,1l2-0.001V21c0,0.552,0.448,1,1,1h2c0.552,0,1-0.448,1-1v-8.003l2.174-0.001c0.508,0,0.935-0.381,0.993-0.886l0.229-1.996C17.465,9.521,17.001,9,16.403,9z"
                     ></path>
+                  </svg>
+                </a>
+              </li>
+              <li class="liFooter">
+                <a href="" class="IconFooterRedes">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 50 50"
+                    fill="currentColor"
+                    class="iconRedes"
+                  >
                     <path
-                      id="arrow-icon-two"
-                      d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
-                      fill="currentColor"
+                      d="M 6.9199219 6 L 21.136719 26.726562 L 6.2285156 44 L 9.40625 44 L 22.544922 28.777344 L 32.986328 44 L 43 44 L 28.123047 22.3125 L 42.203125 6 L 39.027344 6 L 26.716797 20.261719 L 16.933594 6 L 6.9199219 6 z"
                     ></path>
-                    <path
-                      id="arrow-icon-three"
-                      d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
-                      fill="currentColor"
-                    ></path>
-                  </g>
-                </svg>
-              </span>
-            </a>
+                  </svg>
+                </a>
+              </li>
+            </ul>
           </div>
-        </div>
-        <div>
-          <ul class="ulFooter">
-            <li class="liTitle"><h2>Institucional</h2></li>
-            <li class="liFooter"><a href="">Inicio</a></li>
-            <li class="liFooter"><a href="">Manutenção</a></li>
-            <li class="liFooter"><a href="">Prevenção</a></li>
-          </ul>
-        </div>
-        <div>
-          <ul class="ulFooter">
-            <li class="liTitle"><h2>Dúvidas</h2></li>
-            <li class="liFooter"><a href="">Solucões</a></li>
-            <li class="liFooter"><a href="">Feedback</a></li>
-            <li class="liFooter"><a href="">Perguntas</a></li>
-          </ul>
-        </div>
-        <div>
-          <ul class="ulFooter">
-            <li class="liTitle"><h2>Redes socias</h2></li>
-            <li class="liFooter">
-              <a href="">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 30 30"
-                  fill="currentColor"
-                  class="iconRedes"
-                >
-                  <path
-                    d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"
-                  ></path></svg
-              ></a>
-            </li>
-            <li class="liFooter"><a href="">Manutenção</a></li>
-            <li class="liFooter"><a href="">Prevenção</a></li>
-          </ul>
         </div>
       </div>
-      <div>
-        <div class="copyWrraper">
-          <div class="copyText">
-            <h3>Copyright © 2024 Uplines. Todos os direitos reservados.</h3>
-          </div>
-          <div class="policyWrraper">
-            <a href="">Politica de privacidade</a>
-          </div>
+      <div class="copyWrraper">
+        <div class="copyText">
+          <h3>Copyright © 2024 Uplines. Todos os direitos reservados.</h3>
+        </div>
+        <div class="policyWrraper">
+          <a href="">Politica de privacidade</a>
         </div>
       </div>
     </footer>
-    <script>
-      const text = document.querySelector(".sec-text");
-
-      const textLoad = () => {
-        setTimeout(() => {
-          text.textContent = "Front-end";
-        }, 0);
-        setTimeout(() => {
-          text.textContent = "UX Design";
-        }, 4000);
-        setTimeout(() => {
-          text.textContent = "UI Design";
-        }, 8000); //1s = 1000 milliseconds
-      };
-
-      textLoad();
-      setInterval(textLoad, 12000);
-    </script>
     <script src="js/script.js"></script>
   </body>
 </html>

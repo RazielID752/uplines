@@ -1,9 +1,9 @@
 .menu .rolagem {
   background: #fffffff9;
-  border-bottom: 2px solid #e4e4e4;
+  /* border-bottom: 2px solid #e4e4e4;
   -webkit-box-shadow: 0px 3px 20px 1px rgba(0,0,0,0.24);
   -moz-box-shadow: 0px 3px 20px 1px rgba(0,0,0,0.24);
-  box-shadow: 0px 3px 20px 1px rgba(0,0,0,0.24);
+  box-shadow: 0px 3px 20px 1px rgba(0,0,0,0.24); */
 }
 
 .wrapper {
@@ -21,6 +21,12 @@
 
 .menu .logo-menu {
   fill: #ffffff;
+}
+.menuMobile{
+  color: #fff;
+}
+.menuMobile .rolagem{
+  color: #0a84ff;
 }
 
 .menu .rolagem .nav-a {

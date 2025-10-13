@@ -23,7 +23,7 @@ function toggleMenu() {
 // Função para fechar o menu quando um link é clicado
 function closeMenuOnClick() {
   nav.classList.remove("active"); // Fecha o menu removendo a classe 'active'
-  menuIcon.src = "assets/img/menu-togle.svg"; // Atualiza o ícone para representar o menu fechado
+  menuIcon.src = "img/menu-togle.svg"; // Atualiza o ícone para representar o menu fechado
   menuIcon.alt = "Menu Fechado";
 }
 

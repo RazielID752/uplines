@@ -373,6 +373,7 @@
   text-decoration: none;
   transition: 1s all;
   margin-top: 1rem;
+  cursor: pointer;
 }
 .card:hover .title,
 .card:hover .subtitle,
@@ -575,7 +576,7 @@
 
 .copyWrraper {
   border-top: 1px solid #e8e8e8;
-  padding: 2rem 2rem;
+  padding: 2rem 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
